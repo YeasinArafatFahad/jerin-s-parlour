@@ -20,11 +20,7 @@
     display: flex;
     flex-direction: column;
 }
-.li-color{
-    color: #3C3C3C;
-    font-weight: bold;
 
-}
 .cart-img{
     width: 100px;
     height: 100px;
