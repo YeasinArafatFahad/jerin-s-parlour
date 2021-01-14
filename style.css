@@ -1,0 +1,18 @@
+
+#ss{
+    background-color: chartreuse;
+}
+.imgg{
+    height:39.27px;
+    width:  291.11px;
+}
+.shoe-img{
+    background-color: chartreuse;
+}
+.dollar-color{
+    color: crimson;
+}
+.rev{
+    display: flex;
+    flex-direction: column;
+}
