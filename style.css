@@ -1,16 +1,9 @@
 
-#ss{
-    background-color:#FFF9F4;
-
-
-}
 .imgg{
     height:39.27px;
     width:  291.11px;
 }
-.shoe-img{
-    background-color:#F1F1F1; 
-}
+
 .dollar-color{
     color: #FA804C;
     font-weight: 800;
@@ -27,33 +20,16 @@
     display: flex;
     justify-content: center;
 }
-.nike{
-    color: orange;
-    font-size:65px;
-    font-weight: 600;
-}
-.infinity{
-    color: #363958;
-    font-size: 62px;
-    font-weight:600;
-    font-family: sans-serif;
-}
-.shoes{
-    color: #363958;
-    font-size: 55px;
-    font-weight:600;
-    font-family: sans-serif;
-}
 .shopping-cart-img{
     width:20px;
     height: 20px;
 }
 .bnt{
     color: white;
-    width: 120px;
+    width: 220px;
     height: 40px;
     border:0;
-    background: #3543BC;
+    background: #df374d;
     border-radius: 10px;
 }
 .bdradious{
@@ -63,4 +39,17 @@ h5{
     color: #363958;
     font-weight:600;
     font-family: sans-serif;
+}
+#ss{
+    background-color: pink;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.third{
+    background-color:antiquewhite
+}
+.desc{
+    height: 200px;
 }
