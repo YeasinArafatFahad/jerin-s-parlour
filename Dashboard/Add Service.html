@@ -68,50 +68,25 @@
                     </div>
                 </nav>
                 <div class="container-fluid bg-light p-5">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="card h-100 shadow border-0 bdradious ">
-                                <div class="row align-items-center text-center">
-                                    <div class="col-md-8">
-                                        <div class="p-5">
-                                            <img src="../logo/shirt.png" class="card-img-top icon" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class=" ml-2 col-md-4">
-                                        <button type="button" class="btn btn-outline-danger">Pending</button>
-                                    </div>
-
-                                </div>
-                                <div class="card-body">
-                                    <h1>Shirt Wash</h1>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quaerat eum
-                                        voluptates quos explicabo, possimus qui!</p>
-                                </div>
-                            </div>
+                    <form class="mt-5 p-5">
+                        <div class="col-md-6">
+                            <label for="Service"> Service Title</label>
+                            <input type="text" class="form-control" placeholder="Enter Title">
                         </div>
-                        <div class="col">
-                            <div class="card h-100 shadow border-0 bdradious ">
-                                <div class="row align-items-center text-center">
-                                    <div class="col-md-8">
-                                        <div class="p-5">
-                                            <img src="../logo/coat.png" class="card-img-top icon" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class=" ml-2 col-md-4">
-                                        <button type="button" class="btn btn-outline-success">Success</button>
-                                    </div>
-
-                                </div>
-                                <div class="card-body">
-                                    <h1>Shirt Wash</h1>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quaerat eum
-                                        voluptates quos explicabo, possimus qui!</p>
-                                </div>
-                            </div>
+                        <br>
+                        <div class="col-md-6">
+                            <label for="Designation">Designation</label>
+                            <br>
+                            <textarea type="text" placeholder="Enter Designation" name="" id="" cols="60"
+                                rows="5"></textarea>
                         </div>
-                    </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="customFile">File Upload</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
                 </div>
             </header>
         </section>
